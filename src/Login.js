@@ -23,11 +23,11 @@ export default function Login() {
     <div className="login">
       <div className="logincontainer">
         <img
-          src="https://images.indianexpress.com/2015/02/whatsapp-security-tips.jpg"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCb5a29OibzderqHYNqVCi-HYEri0W6g811g&usqp=CAU"
           alt=""
         />
         <div className="logintext">
-          <h1>Sign in to WhatsApp</h1>
+          <h3 >In-App chat experiences users <br></br>With love </h3>
         </div>
         <Button type="submit" onClick={signIn}>
           Sign In with Google

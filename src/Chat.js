@@ -60,7 +60,7 @@ function Chat() {
           <h3>{roomname}</h3>
           <p>
             {" "}
-            last seen{" "}
+           {" "}
             {new Date(
               messages[messages.length - 1]?.timestamp?.toDate()
             ).toUTCString()}

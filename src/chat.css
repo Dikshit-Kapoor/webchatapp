@@ -7,10 +7,11 @@
   padding: 20px;
   display: flex;
   align-items: center;
-  border-bottom: 1px solid lightgray;
+  border-bottom: 1px solid #79827d;
 }
 .chatheaderinfo {
   flex: 1;
+  color:black;
   padding-left: 20px;
 }
 
@@ -19,7 +20,7 @@
   font-weight: 500;
 }
 .chatheaderinfo > p {
-  color: gray;
+  color: black;
 }
 .chatheaderright{
     display:flex;
@@ -27,7 +28,7 @@
     min-width:100px;
 }
 .chatbody {
-  background-image: url("https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png");
+  background-color: whitesmoke;
   flex: 1;
   background-repeat: repeat;
   background-position: center;
@@ -36,16 +37,17 @@
 }
 .chatmessage {
   position: relative;
-  font-size: 16px;
+  font-size: 13px;
   padding: 10px;
   width: fit-content;
-  border-radius: 10px;
-  background-color: #ffffff;
+  border: 2px solid black;
+  border-radius: 7px ;
+  background-color: #f7bc25;
   margin-bottom: 30px;
 }
 .chatreciever{
     margin-left:auto;
-    background-color:#dcf8c6;
+    background-color:#43cc93;
 }
 .chattimestamp {
   margin-left: 10px;
@@ -63,7 +65,7 @@
   justify-content: space-between;
   align-items: center;
   height: 60px;
-  border-top: 1px solid lightgray;
+  border-top: 1px solid #79827d;
 }
 .chatfooter > form {
   flex: 1;
